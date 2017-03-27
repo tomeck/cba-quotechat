@@ -58,4 +58,3 @@ ToCountry=US&ToState=NJ&SmsMessageSid=SMedbc692d9f072246566a5b8c9f69c312&NumMedi
 
 A sample curl script that works is:
 $ curl --data "ToCountry=US&ToState=NJ&SmsMessageSid=SMedbc692d9f072246566a5b8c9f69c312&NumMedia=0&ToCity=LONG+BRANCH&FromZip=07734&SmsSid=SMedbc692d9f072246566a5b8c9f69c312&FromState=NJ&SmsStatus=received&FromCity=LONG+BRANCH&Body=Test&FromCountry=US&To=%2B17327599154&ToZip=07764&NumSegments=1&MessageSid=SMedbc692d9f072246566a5b8c9f69c312&AccountSid=ACbb28e740dadc52c2575f545b1d544b83&From=%2B17322335390&ApiVersion=2010-04-01" localhost:1337/sms
-# portfolio-chat
