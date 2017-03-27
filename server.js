@@ -16,15 +16,6 @@ var Conversation = require('watson-developer-cloud/conversation/v1');
 // Get the app environment from Cloud Foundry
 var appEnv = cfenv.getAppEnv();
 
-// JTE TODO - read Env Vars from cfenv
-var conversationUsername = '37eaaf21-effd-4753-a6f3-929f3f9d24dc';  // PREV 'e7628040-92ad-4a01-8415-467b78ee3110';
-var conversationPassword = 'F0aq1hPCcayh'; // PREV 'qGz4gBDXiHHi';
-var conversationWorkspace = '5e283b15-3cf8-4c3d-8ae1-9013d452c0d5';  // cogcov 'd0b8c93b-f4f2-4689-b980-3cedfb519d0d'// CBA food ordering 'ba1d1b65-2ce5-4901-8377-2de214dea244';
-
-// --- Portfolio and Xignite API CREDENTIALS JTE TODO REMOVE
-var CRED_PORTFOLIO_USERID = 'hindesequallsompaideirdl';  // PROD-OLD'bitchabbirigentedurtespa'; // "willowarimanctietteadded";
-var CRED_PORTFOLIO_PWD = '3bbff2964bb82ffe2dddc291151487503c54d564';  // PROD-OLD '6c395fe4c3f95849e3a85f1bd3c9fe2460f5820a'; //"88177d8581ae4165d6a620142d7029fc085c443f";
-var CRED_XIGNITE_TOKEN = "0BE12B58D70D405AB0892D0D1A8DBA93";
 var URL_GET_XIGNITE_LAST_PRICES = 'http://globalquotes.xignite.com/v3/xGlobalQuotes.json/GetGlobalDelayedQuotes';
 
 // Establish Watson Conversation connection
